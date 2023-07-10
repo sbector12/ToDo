@@ -1,12 +1,24 @@
 <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1">
+<title>To-Do List</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <div class="todo-app">
+    <h2 class="title">To-Do List</h2>
+    <div class="row">
+      <input type="text"  id="input-box" placeholder="Add task">
+      <button onlick="addTask()">Add</button>
+    </div>
+    <ul id="list-container">
+    </ul>
 
-<html lang="en">
- 
-<form>
+</div>
 
-<input type="text" id="inputTask" name="task" placeholder="e.g. Learn a new language"><br>
-  
-</form>
-
-
+</div>
+<script src="functions.js" charset="utf-8"></script>
+</body>
 </html>
